@@ -4,20 +4,15 @@
 The purpose of this exercise is to make a Visualization Dashboard of World Population and hence making use of RESTFUL APIs (In this case, Method=GET is used). 
 
 The exercise is conducted over AWS Platform using EC2 Instance.
+### Requirements
+import pandas as pd
+import plotly.graph_objs as go
+import json, plotly
+from flask import render_template,Flask,jsonify,request
+### 1. Data Preparation
+This is commonly denoted as 80% of the process. From working with missing data to finding a way to work with categorical variables. Firstly, we defined a function for cleaning the 4 csv files given here. We took 'Country Name' and Years from '1990 to 2015' as our analysis period.
 
-### 1. Business Understanding
 
-Given the current scenario of Covid-19, we want to analyze the trends, correlations and expectations of impact of Covid-19 in today's world with the help of visualizations :- 
-1. Top 15 countries that has most number of confirmed, active,recovered & death cases reported from the Covid-19?
-2. Trend Comparision between different countries and analyze which country has doubling of cases in Corona Virus every day, every second day, every 4 days, every week, every month? 
-3. Covid-19 Mortality rate with respect to all the continents.
-
-
-### 2. Data Understanding
-Here we used Covid-19 data from 22 January 2019 to 11th April 2020 to attempt to answer our questions of interest.We answered our questions using visualizations techniques and making the impact clear.
-
-### 3. Data Preparation
-This is commonly denoted as 80% of the process. From working with missing data to finding a way to work with categorical variables. Firstly, we replaced the country names to enhance readability. Secondly, we added continents for each country which would help us in the analysis of mortality rate with respect to each continent.Thirdly, we replaced the NAN values with empty spaces. There was ton more we could have done to wrangle the data, but you have to start somewhere, and then you can always iterate.
 
 ### 4. Modeling
 Since none of our questions requires machine learning techniques, descriptive or inferential statistics are used to create a compelling answers to all questions.
