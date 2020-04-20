@@ -19,11 +19,11 @@ This is commonly denoted as 80% of the process. From working with missing data t
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Clean_files.png)
 
-## Open your EC2 Instance in your terminal :-
+### Open your EC2 Instance in your terminal :-
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/AWS_Instance.png)
 
-## Finally, run your app in your instance. Make sure all your files are in your instance.
+### Finally, run your app in your instance. Make sure all your files are in your instance.
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/run_app.png)
 
