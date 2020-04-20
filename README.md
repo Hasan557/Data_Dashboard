@@ -23,10 +23,12 @@ This is commonly denoted as 80% of the process. From working with missing data t
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/AWS_Instance.png)
 
-### 2. Evaluation
-Results are the findings from our wrangling and analysis using visualizations. 
+## Finally, run your app in your instance. Make sure all your files are in your instance.
 
-### 3. RESULTS
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/run_app.png)
+
+
+### 2. RESULTS
 
 ![World_Population](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Ouput1.png)
 
