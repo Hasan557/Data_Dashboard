@@ -22,6 +22,10 @@ Results are the findings from our wrangling and analysis using visualizations. T
 
 ### RESULTS
 
-![World_Population](.png)
+![World_Population](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Ouput1.png)
 
-![Mortality_rate](https://github.com/Hasan557/Data_Science_Blog/blob/master/Pics/Mortality%20rate.png)
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part2.png)
+
+GET Request
+
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part3.png)
