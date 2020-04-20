@@ -26,6 +26,6 @@ Results are the findings from our wrangling and analysis using visualizations. T
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part2.png)
 
-GET Request
+### GET Request
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part3.png)
