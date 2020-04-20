@@ -17,6 +17,11 @@ from flask import render_template,Flask,jsonify,request
 ### 1. Data Preparation
 This is commonly denoted as 80% of the process. From working with missing data to finding a way to work with categorical variables. Firstly, we defined a function for cleaning the 4 csv files given here. We took 'Country Name' and Years from '1990 to 2015' as our analysis period.
 
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Clean_files.png)
+
+## Open your EC2 Instance in your terminal :-
+
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/AWS_Instance.png)
 
 ### 2. Evaluation
 Results are the findings from our wrangling and analysis using visualizations. 
