@@ -11,11 +11,11 @@ This is commonly denoted as 80% of the process. From working with missing data t
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Clean_files.png)
 
-### Open your EC2 Instance in your terminal :-
+## Open your EC2 Instance in your terminal :-
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/AWS_Instance.png)
 
-### Finally, run your app in your instance. Make sure all your files are in your instance.
+## Finally, run your app in your instance. Make sure all your files are in your instance.
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/run_app.png)
 
@@ -26,9 +26,14 @@ This is commonly denoted as 80% of the process. From working with missing data t
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part2.png)
 
-### METHOD = GET
+### HTTP (Method = "GET")
+
+Use GET requests to retrieve resource representation/information only – and not to modify it in any way. As GET requests do not change the state of the resource, these are said to be safe methods. Additionally, GET APIs should be idempotent, which means that making multiple identical requests must produce the same result every time until another API (POST or PUT) has changed the state of the resource on the server.
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part3.png)
 
 ### Requirements
-pandas,plotly.graph_objs,json, plotly,flask.
+pandas,plotly.graph_objs,json, plotly,flask. An AWS working account!!
+
+### Further Work
+Connect your EC2 Instance with a Database (preferably Cassandra) and work on other HTTP Methods(Post, Put, Delete). You could work on security of your website and also deploy the website.
