@@ -32,8 +32,11 @@ Use GET requests to retrieve resource representation/information only – and no
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part3.png)
 
-### Requirements
-pandas,plotly.graph_objs,json, plotly,flask. An AWS working account!!
+### File Descriptions
+
+![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/File_Descip.png)
+
+
 
 ### Further Work
 Connect your EC2 Instance with a Database (preferably Cassandra) and work on other HTTP Methods(Post, Put, Delete). You could work on security of your website and also deploy the website.
