@@ -1,21 +1,13 @@
 # Data_Dashboard_using_AWS
 
 ## Introduction
-The purpose of this exercise is to make a Visualization Dashboard of World Population and hence making use of RESTFUL APIs (In this case, Method=GET is used). 
+A data dashboard is an information management tool that visually tracks, analyzes and displays key performance indicators (KPI), metrics and key data points to monitor the health of a business, department or specific process. They are customizable to meet the specific needs of a department and company. Behind the scenes, a dashboard connects to your files, attachments, services and API’s, but on the surface displays all this data in the form of tables, line charts, bar charts and gauges. A data dashboard is the most efficient way to track multiple data sources because it provides a central location for businesses to monitor and analyze performance. Real-time monitoring reduces the hours of analyzing and long line of communication that previously challenged businesses.
 
-The exercise is conducted over AWS Platform using EC2 Instance.
-
-### Requirements
-import pandas as pd
-
-import plotly.graph_objs as go
-
-import json, plotly
-
-from flask import render_template,Flask,jsonify,request
+## Purpose
+The purpose of this exercise is to make a Visualization Dashboard of World Population and hence making use of RESTFUL APIs (To know more about Restful APIs [here](https://pusher.com/tutorials/understanding-rest-api)).The exercise is conducted over AWS Platform using EC2 Micro Instance.
 
 ### 1. Data Preparation
-This is commonly denoted as 80% of the process. From working with missing data to finding a way to work with categorical variables. Firstly, we defined a function for cleaning the 4 csv files given here. We took 'Country Name' and Years from '1990 to 2015' as our analysis period.
+This is commonly denoted as 80% of the process. From working with missing data to finding a way to work with categorical variables. Firstly, we defined a function for cleaning the 4 csv files. We took 'Country Name' and Years from '1990 to 2015' as our analysis period.
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/Clean_files.png)
 
@@ -37,3 +29,6 @@ This is commonly denoted as 80% of the process. From working with missing data t
 ### METHOD = GET
 
 ![](https://github.com/Hasan557/Data_Dashboard/blob/master/Screenshots/part3.png)
+
+### Requirements
+pandas,plotly.graph_objs,json, plotly,flask.
