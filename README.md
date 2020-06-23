@@ -40,3 +40,5 @@ Use GET requests to retrieve resource representation/information only – and no
 
 ### Further Work
 Connect your EC2 Instance with a Database (preferably Cassandra) and work on other HTTP Methods(Post, Put, Delete). You could work on security of your website and also deploy the website.
+
+[here](https://github.com/Hasan557/Sales_Prediction)
