@@ -41,13 +41,3 @@ Use GET requests to retrieve resource representation/information only – and no
 ### Further Work
 Connect your EC2 Instance with a Database (preferably Cassandra) and work on other HTTP Methods(Post, Put, Delete). You could work on security of your website and also deploy the website.
 
-[here](https://github.com/Hasan557/Sales_Prediction)
-
-[here](https://www.linkedin.com/in/hasan-adil/)
-
-[here](https://github.com/Hasan557/Data_Dashboard)
-
-[here](https://github.com/Hasan557/Super-Resolution-Convolutional-Neural-Network)
-
-[here](https://github.com/Hasan557/Generative-Adversarial-Network)
-
